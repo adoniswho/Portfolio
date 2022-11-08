@@ -1,93 +1,88 @@
-/***********
-
-Common
-
-***********/
-body{
-font-family: "monospace", sans-serif;
-}
-.font-primary{
-color: #00abae
-}
-.title-icon{
-font-size: 20px;
-font-weight:bold;
+body {
+    font-family: "monospace", sans-serif;
+    
 }
 
-p{
+.font-primary {
+    color: #00abae;
+}
+
+.title-icon {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+p {
     font-size: 14px;
 }
-h2{
-    font-weight:bold;
+
+h2 {
+    font-weight: bold;
     font-size: 23px;
     margin-bottom: 20px;
 }
-a .font-black{
-    color: #000  important;
+
+a.font-black {
+    color: black !important;
 }
-.hrline{
-    align-self: center;
-    width: 100%;
-}
-/***********
 
-About
-
-***********/
-
-#about{
+#about {
     margin: 60px auto;
     max-width: 400px;
     text-align: center;
 }
 
-#about img{
+#about img {
     border-radius: 50%;
     width: 200px;
-    margin-bottom: 10px;
     height: 200px;
+    margin-bottom: 10px;
 }
+
 #about .name {
     font-size: 19px;
 }
-#about .vocation{
-    font-size: 17px;
-    color: #a8a8ab;
-    margin-bottom: 10px;
 
+#about .vocation {
+    font-size: 17px;
+    color: #ababab;
+    margin-bottom: 10px;
 }
-#about .skills{
+
+#about .skills {
     font-size: 14px;
     color: #00abae;
     margin-bottom: 10px;
 }
-#about .email{
+
+#about .email {
     margin-top: 14px;
-    font-size: 14px;
+    font-size: 15px;
 }
-#about .icons{
+
+#about .icons {
     margin-top: 20px;
     font-size: 30px;
-    color: #000;
 }
-/********************
 
-Project
+#about .icons a {
+    color: black;
+}
 
-********************/
-
-#project{
+#project {
     margin: 60px auto;
     width: 80%;
-    }
-#project h2{
-        text-align:center;
-    }
-
-#project .card img{
-    width: 100%;
-
 }
-#project .card-title{
+
+#project h2 {
+    text-align: center;
+}
+
+#project .card img {
+    width: 100%;
+    border-radius: 3%;
+}
+
+#project .card-title {
     font-weight: bold;
 }
